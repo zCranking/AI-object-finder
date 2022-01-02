@@ -52,15 +52,6 @@ canvas{
     box-shadow: 10px 10px 30px grey;
     border-radius: 5px;
 }
-#copyright_footer{
-    position: fixed;
-    color: rgb(218, 252, 224);
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(115, 130, 118);
-    line-height: 3;
-    text-align: center;
-}
 #note{
     margin-top: -10px;
     font-family: 'Cinzel', serif;
@@ -73,4 +64,55 @@ canvas{
     width: 100%;
     padding-top: 7px;
     height: 50px;
+}
+#start{
+    background-color: #F46036;
+    text-shadow: 2px 2px#3AB795;
+    color: #EF2D56;
+    margin-top: -10px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Monofett', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    width: 20em;
+    height: 50px;
+    border: none;
+}
+#start:hover{
+    animation-name: button;
+    animation-duration: 2s;
+}
+@keyframes button{
+    0%{
+        text-shadow: 2px 2px #3AB795;
+        font-size: 35px;
+    }
+    25%{
+        text-shadow: 4px 2px #3AB795; 
+        font-size: 30px;
+    }
+    50%{
+        text-shadow: 6px 2px #3AB795;
+        font-size: 40px;
+    }
+    100%{
+        text-shadow: 2px 2px #3AB795;
+        font-size: 35px;
+    }
+}
+#input{
+    color: #EF2D56;
+    font-family: 'Cinzel', serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Monofett', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin-top: -10px;
+    height: 50px;
+    border: none;
+    width: 20em;
+}
+div{
+    display: inline-block;
 }
